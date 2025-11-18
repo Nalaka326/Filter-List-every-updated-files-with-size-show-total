@@ -20,6 +20,6 @@ find /var/www/html -type f -newermt "2025-11-18" ! -newermt "2025-11-19" -print0
 - This script can be scheduled with **cron** to generate daily reports automatically.
 
 ---
-Author: Nalaka326
-Last Updated: November 2025
-Tested on: Ubuntu Server 22.04
+Author: Nalaka326   
+Last Updated: November 2025  
+Tested on: Ubuntu Server 22.04  
