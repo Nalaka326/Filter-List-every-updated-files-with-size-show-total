@@ -18,3 +18,8 @@ find /var/www/html -type f -newermt "2025-11-18" ! -newermt "2025-11-19" -print0
 - The second part calculates the total size of all files updated that day.
 - You can save the output to a file by redirecting it, e.g., `> daily_report_2025-11-18.txt`.
 - This script can be scheduled with **cron** to generate daily reports automatically.
+
+---
+Author: Nalaka326
+Last Updated: November 2025
+Tested on: Ubuntu Server 22.04
